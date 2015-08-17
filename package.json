@@ -1,7 +1,7 @@
 {
   "name": "immersive-hero",
   "version": "1.0.0",
-  "description": "",
+  "description": "Immersive hero banner with layered images.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/b40houghton/immersive-hero/issues"
   },
-  "homepage": "https://github.com/b40houghton/immersive-hero#readme"
+  "homepage": "https://github.com/b40houghton/immersive-hero#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }
