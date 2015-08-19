@@ -14,11 +14,25 @@
 
 	}
 
+	.img-1{
+		background-image:url('/img/bg1.jpg');
+
+		.image-layer{
+			background-image: url('/img/bg1-layer-1.png');
+		}
+	}
+
+	.img-2{
+		background-image:url('/img/bg2.jpg');
+		.image-layer{
+			background-image: url('/img/bg2-layer-1.png');
+		}
+	}
+
 	
 
 
 	.flexible{
-		background-image:url('/img/bg1.jpg');
 		background-repeat:no-repeat;
 		background-size: cover;
 		background-position:50% 50%;
@@ -26,7 +40,6 @@
 
 		.image-layer{
 			position: absolute;
-		    background-image: url('/img/bg1-layer-1.png');
 		    z-index: 50;
 		    top: 0;
 		    content: "";
@@ -104,7 +117,6 @@
 
 	.fixed{
 		position:relative;
-		background-image:url('/img/bg2.jpg');
 		background-repeat:no-repeat;
 		background-size: cover;
 		background-position:50% 50%;
@@ -135,7 +147,6 @@
 			height:100%;
 			background-size:cover;
 			background-position:50% 50%;
-			background-image:url('/img/bg2-layer-1.png');
 		}
 
 		.content{
